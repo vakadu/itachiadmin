@@ -1,8 +1,7 @@
 {
-  "name": "website-v3.0",
+  "name": "jediadmin",
   "version": "1.0.0",
   "devDependencies": {
-    "animate.css": "^3.5.2",
     "autoprefixer": "^7.1.6",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -23,11 +22,5 @@
     "postcss-nested": "^2.1.2",
     "postcss-simple-vars": "^4.1.0",
     "webpack": "^3.8.1"
-  },
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "lazysizes": "^4.0.1",
-    "waypoints": "^4.0.1",
-    "wowjs": "^1.1.3"
   }
 }

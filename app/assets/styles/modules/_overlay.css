@@ -1,9 +1,0 @@
-/* ==========================
-*   OVERLAY
-============================*/
-.overlay{
-    background: repeat scroll 0 0 rgba(0, 0, 0, 0.5);
-    height: 100%;
-    min-height: 620px;
-    position: relative;
-}

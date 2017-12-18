@@ -1,50 +1,20 @@
 /*
-Website Name: Kwiqpick
+Website Name: Jedi Admin Theme
 Theme URI:    http://kwiqpick.com/
-Author:       Kwiqpick
+Author:       Kwiqpick Team
 Author URI:   http://kwiqpick.com/
 Description:  Description
-Version:      3.0.0
+Version:      1.0
 */
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Bootstrap
-# Font-Awesome
-# General Properties
-    - Global
-    - Typography
-    - Spacings
-    - Overlay
-    - Social Icons
-# Home
-# Download Kwiqpick
-# Footer
+
 
 --------------------------------------------------------------*/
 
-@import "bootstrap";
-@import "animate.css";
-@import "base/_variables.css";
 @import "base/_mixins.css";
+@import "base/_colors.css";
 @import "base/_global.css";
-@import "modules/_form.css";
-@import "modules/_btn.css";
-@import "modules/_overlay.css";
-@import "modules/_social.css";
-@import "modules/_pagination.css";
-@import "modules/_hero-bg.css";
-@import "modules/_header.css";
-@import "modules/_primary-nav.css";
-@import "modules/_home.css";
-@import "modules/_download.css";
-@import "modules/_playstorebtn.css";
-@import "modules/_footer.css";
-@import "modules/_sidebar.css";
-@import "modules/_restaurants.css";
-@import "modules/_menu.css";
-@import "modules/_search-results.css";
-@import "modules/_widget.css";
-@import "modules/_contact.css";
-@import "modules/_panel.css";
+

@@ -6,8 +6,9 @@ var gulp        = require('gulp'),
 
 gulp.task('watch', function () {
     browserSync.init({
+        startPath: "./app",
         server: {
-            baseDir: "app"
+            baseDir: "./"
         }
     });//for loading localhost:3000 in browser and auto reload css and scripts
 

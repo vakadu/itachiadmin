@@ -10,11 +10,22 @@ Version:      1.0
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-
+1. Bootstrap
+2. Font Awesome
+3. Global
+4. Spacings
 
 --------------------------------------------------------------*/
+
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,700|Roboto:100,300,400,500,700);
 
 @import "base/_mixins.css";
 @import "base/_colors.css";
 @import "base/_global.css";
-
+@import "base/_spacings.css";
+@import "modules/_wrapper.css";
+@import "modules/_loginform.css";
+@import "modules/_button.css";
+@import "modules/_login.css";
+@import "modules/_settings.css";

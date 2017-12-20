@@ -7,46 +7,41 @@
     font-weight: bold;
 
     &:hover, &:focus{
-        color: $white;
-    }
-
-    &--vv{
-        border-radius: 3px;
-        letter-spacing: 0;
-        text-transform: uppercase;
-        display: inline-block;
+       color: $white;
     }
 
     &--medium {
-        font-size:14px;
-        padding:12px 20px;
-        line-height:14px
+         font-size:14px;
+         padding:12px 20px;
+         line-height:14px
     }
 
     &--large {
-        font-size:16px;
-        padding:15px 25px;
-        line-height:16px
+         font-size:16px;
+         padding:15px 25px;
+         line-height:16px
     }
 
     &--ghost{
-        border: 3px solid $white;
-        background: transparent;
-        letter-spacing: 2px;
-        display: inline-block;
-        text-transform: uppercase;
-        border-radius: 0;
+         border: 3px solid $white;
+         background: transparent;
+         letter-spacing: 2px;
+         display: inline-block;
+         text-transform: uppercase;
+         border-radius: 0;
     }
 
-    &--round{
+    &--rounded{
         border-radius: 60px;
     }
 
-    &--kwiqpick-red{
+    &--kwiqpick{
+        transition: all 0.2s ease;
         background-color: $kwiqpick;
-    }
+        color: $white;
 
-    &--capitalize{
-        text-transform: capitalize;
+        &:hover{
+            background-color: $kwiqpick-hover;
+        }
     }
 }

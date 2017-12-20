@@ -1944,41 +1944,6 @@ hr.light-grey-hr {
 .mr-auto {
     margin-right: auto !important;
 }
-.wrapper{
-    /*background: $white;*/
-}
-.wrapper--bg-color{
-    padding: 0;
-    display: table;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(24, 41, 61, .8);
-}
-/****************************/
-/** Forms **/
-/****************************/
-.form-control{
-    border: 1px solid rgba(33, 33, 33, 0.12);
-    border-radius: 0;
-    background-color: #FFFFFF;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    color: #212121;
-    height: 42px;
-}
-.form-control:focus{
-         border-color: rgba(33, 33, 33, 0.6);
-         -webkit-box-shadow: none;
-                 box-shadow: none;
-         outline: 0 none;
-    }
-.form-control::-webkit-input-placeholder{
-        text-transform: capitalize;
-    }
-.control-label{
-    color: #212121;
-    text-transform: capitalize;
-}
 .btn{
     background-color: none;
     border-color: rgba(0, 0, 0, 0.1);
@@ -1989,65 +1954,183 @@ hr.light-grey-hr {
     font-weight: bold;
 }
 .btn:hover, .btn:focus{
-        color: #FFFFFF;
-    }
-.btn--vv{
-        border-radius: 3px;
-        letter-spacing: 0;
-        text-transform: uppercase;
-        display: inline-block;
+       color: #FFFFFF;
     }
 .btn--medium {
-        font-size:14px;
-        padding:12px 20px;
-        line-height:14px
+         font-size:14px;
+         padding:12px 20px;
+         line-height:14px
     }
 .btn--large {
-        font-size:16px;
-        padding:15px 25px;
-        line-height:16px
+         font-size:16px;
+         padding:15px 25px;
+         line-height:16px
     }
 .btn--ghost{
-        border: 3px solid #FFFFFF;
-        background: transparent;
-        letter-spacing: 2px;
-        display: inline-block;
-        text-transform: uppercase;
-        border-radius: 0;
+         border: 3px solid #FFFFFF;
+         background: transparent;
+         letter-spacing: 2px;
+         display: inline-block;
+         text-transform: uppercase;
+         border-radius: 0;
     }
-.btn--round{
+.btn--rounded{
         border-radius: 60px;
     }
-.btn--kwiqpick-red{
+.btn--kwiqpick{
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
         background-color: #cb212c;
+        color: #FFFFFF;
     }
-.btn--capitalize{
-        text-transform: capitalize;
-    }
+.btn--kwiqpick:hover{
+            background-color: #ae1c26;
+        }
 /****************************/
 /** Login **/
 /****************************/
-.kq-header{
+.login{
     position: relative;
-    width: 100%;
-    z-index: 1;
+    text-align: center;
 }
-.kq-header__logo-wrap{
-        padding-top: 80px;
-    }
-.kq-header__logo-img{
+.login__box{
         position: relative;
+        width: 460px;
+        max-width: 100%;
+        height: 458px;
+        vertical-align: middle;
+        display: inline-block;
+        margin: 80px auto 50px;
     }
-.login-form{
-    margin: 0 auto;
-    width: 280px;
+.login__box .box{
+            position: absolute;
+            text-align: left;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            padding: 60px 0 40px 0;
+            width: 100%;
+            height: 100%;
+            -webkit-box-shadow: 0 2px 11px -2px rgba(0, 0, 0, 0.5);
+                    box-shadow: 0 2px 11px -2px rgba(0, 0, 0, 0.5);
+            -webkit-transition: all 0.2s cubic-bezier(.35,.33,.75,.9);
+            transition: all 0.2s cubic-bezier(.35,.33,.75,.9);
+        }
+.login__box .box h2{
+                border-left: 6px solid #cb212c;
+                color: #cb212c;
+                padding: 0 40px;
+                font-size: 32px;
+                font-weight: 300;
+                line-height: 45px;
+                height: 45px;
+                text-transform: uppercase;
+                margin-bottom: 50px;
+                position: relative;
+            }
+.login__box .box form{
+                position: relative;
+                display: block;
+                padding: 0 50px;
+            }
+.login__box.login__wrap .box-shadow {
+                opacity: 0.7;
+                -webkit-transform-origin: center top;
+                        transform-origin: center top;
+                -webkit-transform: translate(0px, -9px) scale(0.97);
+                        transform: translate(0px, -9px) scale(0.97);
+            }
+.login__form-group{
+        position: relative;
+        margin-bottom: 45px;
+        height: 52px;
+    }
+.login__form-group.shake {
+             -webkit-animation: shake 0.4s linear;
+                     animation: shake 0.4s linear;
+        }
+.login__form-group label{
+            position: absolute;
+            color: #212121;
+            font-size: 18px;
+            font-weight: 300;
+            left: 0;
+            top: 10px;
+            opacity: 1;
+            -webkit-transition: all 0.3s cubic-bezier(1,-0.33,0,1.15);
+            transition: all 0.3s cubic-bezier(1,-0.33,0,1.15);
+            -webkit-transform: translate(0px, 0px) scale(1);
+                    transform: translate(0px, 0px) scale(1);
+            -webkit-transform-origin: left top;
+                    transform-origin: left top;
+        }
+.login__form-group input{
+            outline: none;
+            background-color: transparent;
+            border: none;
+            color: #212121;
+            font-size: 20px;
+            font-weight: 300;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+.login__form-group u{
+            background-color: #212121;
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+.login__form-group u:before {
+                 content: '';
+                 display: block;
+                 height: 100%;
+                 width: 0;
+                 background-color: #cb212c;
+                 -webkit-transition: all 0.35s cubic-bezier(.35,.33,.84,.85);
+                 transition: all 0.35s cubic-bezier(.35,.33,.84,.85);
+            }
+.login__form-group.focus label {
+                opacity: 0.8;
+                -webkit-transform: translate(0px, -30px) scale(0.8);
+                        transform: translate(0px, -30px) scale(0.8);
+            }
+.login__form-group.focus u:before {
+                     width: 100%;
+                }
+@-webkit-keyframes shake {
+    from, to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
 }
-.login-form__wrap{
-        padding: 60px 0;
+@keyframes shake {
+    from, to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
     }
-.login-form__box{
-         background-color: rgba(10,10,10,.68);
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
     }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
 .setting,
 .setting .setting-toggle {
     border-color: transparent;

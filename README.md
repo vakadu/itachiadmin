@@ -1,6 +1,8 @@
 # jediadmin
 New Admin Theme for Kwiqpick
 
+For Preview clone this repository and go to 'dist' folder and open html files in browser.
+
 ### Getting Started
 
 There are two methods for getting started with this repo.

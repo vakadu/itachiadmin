@@ -1,5 +1,4 @@
-# jediadmin
-New Admin Theme for Kwiqpick
+# itachiadmin
 
 For Preview clone this repository and go to 'dist' folder and open html files in browser.
 
@@ -11,8 +10,8 @@ There are two methods for getting started with this repo.
 Checkout this repo, install dependencies, then start the gulp process with the following:
 
 ```
-> git clone https://github.com/Kwiqpick/jediadmin
-> cd jediadmin
+> git clone https://github.com/vakadu/itachiadmin
+> cd itachiadmin
 > npm install
 > npm start
 ```

@@ -1,0 +1,174 @@
+/****************************/
+/** Buttons **/
+/****************************/
+.btn{
+    color: $white;
+    padding: 10px 25px;
+    text-transform: capitalize;
+    border-radius: 2px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    transition: all .3s ease;
+
+    &:focus, &:active{
+        outline: none;
+    }
+
+    &.btn-default{
+         background: rgba(220, 220, 220, 1);
+         border: solid 1px rgba(220, 220, 220, 1);
+         color: $black!important;
+         &:hover, &:active, &:focus {
+              background: rgba(220, 220, 220, .85);
+              border: solid 1px rgba(220, 220, 220, .1);
+         }
+    }
+
+    &.btn-info{
+         background: rgba(51, 110, 123, 1);
+         border: solid 1px rgba(51, 110, 123, 1);
+         color: $white!important;
+         &:hover, &:active, &:focus {
+            background: rgba(51, 110, 123, .85);
+            border: solid 1px rgba(51, 110, 123, .1);
+         }
+    }
+
+    &.btn-primary{
+         background: rgba(65, 131, 215, 1);
+         border: solid 1px rgba(65, 131, 215, 1);
+         color: $white!important;
+         &:hover, &:active, &:focus {
+            background: rgba(65, 131, 215, .85);
+            border: solid 1px rgba(65, 131, 215, .1);
+         }
+    }
+
+    &.btn-success{
+         background: rgba(38, 166, 91, 1);
+         border: solid 1px rgba(38, 166, 91, 1);
+         color: $white!important;
+         &:hover, &:active, &:focus {
+            background: rgba(38, 166, 91, .85);
+            border: solid 1px rgba(38, 166, 91, .1);
+         }
+    }
+
+    &.btn-danger{
+         background: rgba(217, 30, 24, 1);
+         border: solid 1px rgba(217, 30, 24, 1);
+         color: $white!important;
+         &:hover, &:active, &:focus {
+            background: rgba(217, 30, 24, .85);
+            border: solid 1px rgba(217, 30, 24, .1);
+         }
+    }
+
+    &.btn-warning{
+         background: rgba(245, 171, 53, 1);
+         border: solid 1px rgba(245, 171, 53, 1);
+         color: $white!important;
+         &:hover, &:active, &:focus {
+            background: rgba(245, 171, 53, .85);
+            border: solid 1px rgba(245, 171, 53, .1);
+         }
+    }
+
+    &.btn-search{
+         background: transparent none repeat scroll 0 0;
+         border: medium none;
+         padding: 0;
+         position: absolute;
+         top: 11px;
+         right: 29px;
+         &:hover,&:focus,&:active {
+             border: none;
+             background: none;
+             outline: none;
+         }
+    }
+
+    &.btn-outline{
+         background: transparent !important;
+
+         &:hover,&:focus,&:active {
+             border: solid 1px rgba(255, 255, 255, 1);
+         }
+         &.btn-default{
+             border: 1px solid rgba(220, 220, 220, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(220, 220, 220, 1);
+             }
+         }
+         &.btn-info{
+             border: 1px solid rgba(51, 110, 123, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(51, 110, 123, 1);
+             }
+         }
+         &.btn-primary{
+             border: 1px solid rgba(65, 131, 215, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(65, 131, 215, 1);
+             }
+         }
+         &.btn-success{
+             border: 1px solid rgba(38, 166, 91, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(38, 166, 91, 1);
+             }
+         }
+         &.btn-danger{
+             border: 1px solid rgba(217, 30, 24, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(217, 30, 24, 1);
+             }
+         }
+         &.btn-warning{
+             border: 1px solid rgba(245, 171, 53, 0.5);
+             color: $black!important;
+
+             &:hover, &:active, &:focus {
+                 border: solid 1px rgba(245, 171, 53, 1);
+             }
+         }
+    }
+
+    &.btn-round{
+        border-radius: 60px;
+    }
+
+    &.btn-lg{
+        padding: 12px 25px;
+    }
+
+    &.btn-md{
+         padding: 10px 25px;
+    }
+
+    &.btn-sm{
+        padding: 8px 25px;
+    }
+
+    &.btn-xs{
+        padding: 6px 25px;
+    }
+}
+
+.btn-wrap{
+    .btn{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+}

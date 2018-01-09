@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Kwiqpick">
+
+    <title>Kwiqpick</title>
+
+    <!--Fav icons-->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <!--Custom CSS-->
+    <!-- build:css assets/styles/styles.css -->
+    <link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
+    <!-- endbuild -->
+
+</head>
+
+<body>
+
+<!--Preloader-->
+<div class="preloader">
+    <div class="youtube-loading-animation"></div>
+</div>
+
+<div class="wrapper body-wrapper">
+    <!--start nav-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="nav-for-mobile pull-left">
+            <div class="navbar__header pull-left">
+                <div class="navbar__logo-content">
+                    <a href="index.html">
+                        <img class="navbar__logo-img" src="assets/images/favicon.ico" alt="Kwiqpick"/>
+                        <span class="navbar__logo-text">Kwiqpick</span>
+                    </a>
+                </div><!--end navbar logo wrap-->
+            </div><!--end navbar header-->
+            <a id="toggle_left_sidebar" class="toggle-left-sidebar inline-block ml-20 pull-left" href="javascript:void(0);"><i class="fa fa-bars"></i></a><!--end toggle left sidebar-->
+            <a id="toggle_top_nav_for_mobile" class="toggle-top-nav-for-mobile" href="javascript:void(0);"><i class="fa fa-ellipsis-h"></i></a><!--end toggle top nav-->
+        </div><!--end nav for mobile-->
+        <div id="nav_only_for_mobile" class="nav-only-for-mobile pull-right">
+            <ul class="nav navbar-right top-nav pull-right">
+                <li class="dropdown notification__nav-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell top-nav__icon"></i><span class="top-nav__icon-notifications">5</span></a>
+                    <ul  class="dropdown-menu notification-dropdown animated bounceIn">
+                        <li>
+                            <div class="notification__box-wrap">
+                                <span class="notification__box-title pull-left inline-block">notifications</span>
+                                <a class="txt-green pull-right notification__box-clear inline-block" href="javascript:void(0)"> clear all </a>
+                                <div class="clearfix"></div>
+                                <hr class="light-grey-hr ma-0"/>
+                            </div><!--end navigation box wrap-->
+                        </li>
+                        <li>
+                            <div class="notifications-wrap notification-scroller">
+                                <div class="notifications-item">
+                                    <a href="javascript:void(0)">
+                                        <div class="notifications-icon bg-green">
+                                            <i class="fa fa-flag"></i>
+                                        </div><!--end notifications icon-->
+                                        <div class="notifications-content">
+                                            <span class="inline-block capitalize-font  pull-left truncate notifications-title">New subscription created</span>
+                                            <span class="inline-block font-11  pull-right notifications-time">2pm</span>
+                                            <div class="clearfix"></div>
+                                            <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
+                                        </div><!--end notification content-->
+                                    </a>
+                                </div><!--end notification item-->
+                                <hr class="light-grey-hr ma-0"/>
+                                <div class="notifications-item">
+                                    <a href="javascript:void(0)">
+                                        <div class="notifications-icon bg-seagreen">
+                                            <i class="fa fa-area-chart"></i>
+                                        </div><!--end notifications icon-->
+                                        <div class="notifications-content">
+                                            <span class="inline-block capitalize-font  pull-left truncate notifications-title">New subscription created</span>
+                                            <span class="inline-block font-11  pull-right notifications-time">2pm</span>
+                                            <div class="clearfix"></div>
+                                            <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
+                                        </div><!--end notification content-->
+                                    </a>
+                                </div><!--end notification item-->
+                                <hr class="light-grey-hr ma-0"/>
+                                <div class="notifications-item">
+                                    <a href="javascript:void(0)">
+                                        <div class="notifications-icon bg-orange">
+                                            <i class="fa fa-bar-chart"></i>
+                                        </div><!--end notifications icon-->
+                                        <div class="notifications-content">
+                                            <span class="inline-block capitalize-font  pull-left truncate notifications-title">New subscription created</span>
+                                            <span class="inline-block font-11  pull-right notifications-time">2pm</span>
+                                            <div class="clearfix"></div>
+                                            <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
+                                        </div><!--end notification content-->
+                                    </a>
+                                </div><!--end notification item-->
+                                <hr class="light-grey-hr ma-0"/>
+                                <div class="notifications-item">
+                                    <a href="javascript:void(0)">
+                                        <div class="notifications-icon bg-gold">
+                                            <i class="fa fa-flag"></i>
+                                        </div><!--end notifications icon-->
+                                        <div class="notifications-content">
+                                            <span class="inline-block capitalize-font  pull-left truncate notifications-title">New subscription created</span>
+                                            <span class="inline-block font-11  pull-right notifications-time">2pm</span>
+                                            <div class="clearfix"></div>
+                                            <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
+                                        </div><!--end notification content-->
+                                    </a>
+                                </div><!--end notification item-->
+                                <hr class="light-grey-hr ma-0"/>
+                                <div class="notifications-item">
+                                    <a href="javascript:void(0)">
+                                        <div class="notifications-icon bg-red">
+                                            <i class="fa fa-bug"></i>
+                                        </div><!--end notifications icon-->
+                                        <div class="notifications-content">
+                                            <span class="inline-block capitalize-font  pull-left truncate notifications-title">New subscription created</span>
+                                            <span class="inline-block font-11  pull-right notifications-time">2pm</span>
+                                            <div class="clearfix"></div>
+                                            <p class="truncate">Your customer subscribed for the basic plan. The customer will pay $25 per month.</p>
+                                        </div><!--end notification content-->
+                                    </a>
+                                </div><!--end notification item-->
+                                <hr class="light-grey-hr ma-0"/>
+                            </div><!--end notifications wrap-->
+                        </li>
+                        <li>
+                            <div class="notifications-wrap-bottom">
+                                <hr class="light-grey-hr ma-0"/>
+                                <a class="block text-center txt-grey notifications-read-all" href="javascript:void(0)"> read all </a>
+                                <div class="clearfix"></div>
+                            </div><!--end notifications bottom-->
+                        </li>
+                    </ul><!--end notifications dropdown-->
+                </li><!--end notifications-->
+                <li class="dropdown user__nav-dropdown">
+                    <a href="#" class="dropdown-toggle pr-0" data-toggle="dropdown"><img src="assets/images/user1.png" alt="user_auth" class="user__profile-img img-circle"/><span class="user__status"></span></a>
+                    <ul class="dropdown-menu user__dropdown animated flipInX">
+                        <li>
+                            <a href="profile.html"><i class="fa fa-user-o"></i><span>Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-cog"></i><span>My Tasks</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-power-off"></i><span>Log Out</span></a>
+                        </li>
+                    </ul><!--end user dropdown-->
+                </li><!--end user nav-->
+            </ul><!--end nav-->
+        </div><!--end toggle nav for mobile-->
+    </nav><!--end nav-->
+
+    <!--left sidebar-->
+    <div class="sidebar-left">
+        <ul class="nav navbar-nav sidebar-left__nav sidebar-scroller">
+            <li class="sidebar-left__title">
+                <span>Main</span>
+                <i class="fa fa-ellipsis-h"></i>
+            </li>
+            <li>
+                <a class="active" href="index.html">
+                    <div class="pull-left"><i class="fa fa-tachometer mr-20"></i><span class="sidebar-left__text-left">dashboard</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#admin">
+                    <div class="pull-left"><i class="fa fa-user mr-20"></i><span class="sidebar-left__text-left">admin</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="admin">
+                    <li>
+                        <a href="staff.html">Staff</a>
+                    </li>
+                    <li>
+                        <a href="role.html">role</a>
+                    </li>
+                    <li>
+                        <a href="functionalaccess.html">functional access</a>
+                    </li>
+                    <li>
+                        <a href="useraccess.html">User Access</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#table-status">
+                    <div class="pull-left"><i class="fa fa-ticket mr-20"></i><span class="sidebar-left__text-left">table</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="table-status">
+                    <li>
+                        <a href="tablestatus.html">table status</a>
+                    </li>
+                    <li>
+                        <a href="reservation.html">reservation status</a>
+                    </li>
+                </ul>
+            </li>
+            <li><hr class="light-grey-hr mb-10" /> </li>
+            <li class="sidebar-left__title">
+                <span>featured</span>
+                <i class="fa fa-ellipsis-h"></i>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#pages">
+                    <div class="pull-left"><i class="fa fa-file-text-o mr-20"></i><span class="sidebar-left__text-left">pages</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul id="pages" class="collapse">
+                    <li>
+                        <a class="active" href="blank.html">Blank Page</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#auth_pages">authentication pages<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="auth_pages" class="collapse collapse-level-2">
+                            <li>
+                                <a href="login.html">Login</a>
+                            </li>
+                            <li>
+                                <a href="">Register</a>
+                            </li>
+                            <li>
+                                <a href="">Recover Password</a>
+                            </li>
+                            <li>
+                                <a href="">reset Password</a>
+                            </li>
+                            <li>
+                                <a href="">Lock Screen</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#error_pages">error pages<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="error_pages" class="collapse">
+                            <li>
+                                <a href="404.html">Error 404</a>
+                            </li>
+                            <li>
+                                <a href="500.html">Error 500</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">FAQ</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#ui-components">
+                    <div class="pull-left"><i class="fa fa-camera-retro mr-20"></i><span class="sidebar-left__text-left">ui components</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="ui-components">
+                    <li>
+                        <a href="buttons.html">buttons</a>
+                    </li>
+                    <li>
+                        <a href="accordians.html">accordians</a>
+                    </li>
+                    <li>
+                        <a href="modals.html">modals</a>
+                    </li>
+                </ul>
+            </li>
+            <li><hr class="light-grey-hr mb-10" /> </li>
+            <li class="sidebar-left__title">
+                <span>extra</span>
+                <i class="fa fa-ellipsis-h"></i>
+            </li>
+            <li>
+                <a class="active" href="documentation.html">
+                    <div class="pull-left"><i class="fa fa-file-pdf-o mr-20"></i><span class="sidebar-left__text-left">documentation</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+        </ul><!--end nav-->
+    </div><!--end left sidebar-->
+
+    <!--main content-->
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="row main-heading">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <h5 class="txt-dark">profile</h5>
+                </div><!--end column-->
+            </div><!--end row-->
+
+            <div class="row">
+                <div class="col-lg-3 col-sm-12">
+                    <div class="panel panel-default card-view  pa-0">
+                        <div class="panel-wrapper collapse in">
+                            <div class="panel-body pa-0">
+                                <div class="profile-image-box text-center">
+                                    <div class="profile-img">
+                                        <img class="inline-block" src="assets/images/user1.png" alt="user"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-sm-12">
+                    <div class="panel panel-default card-box pa-0">
+                        <div class="panel-wrapper collapse in">
+                            <div  class="panel-body pb-0">
+                                <div class="col-sm-12 col-xs-12">
+                                    <div class="form-box">
+                                        <form action="#">
+                                            <div class="form-wrap overflow-hide">
+                                                <div class="form-group">
+                                                    <label class="control-label mb-10" for="first-name">First Name</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                        <input type="text" class="form-control" id="first-name" placeholder="First Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label mb-10" for="last-name">Last Name</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                        <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label mb-10" for="email">Email address</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                                        <input type="email" class="form-control" id="email" placeholder="abc@gmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label mb-10" for="primary-contact">phone number</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                                                        <input type="text" class="form-control" id="primary-contact" placeholder="+91 9874561235">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="control-label mb-10" for="secondary-contact">secondary contact</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                                                        <input type="text" class="form-control" id="secondary-contact" placeholder="+91 9874561235">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-submit mt-10">
+                                                <button type="submit" class="btn btn-info btn-round mr-10 mb-30">Update profile</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div><!--end panel body-->
+                        </div><!--end panel wrapper-->
+                    </div><!--end panel-->
+                </div><!--end column-->
+            </div><!--end row-->
+
+            <!--footer-->
+            <footer class="footer container-fluid pl-30 pr-30">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p>2017 &copy; Kwiqpick</p>
+                    </div><!--end column-->
+                </div><!--end row-->
+            </footer><!--end footer-->
+            <!--end footer-->
+
+        </div><!--end container fluid-->
+    </div><!--end content-wrapper-->
+    <!--end main content-->
+
+</div><!--end wrapper-->
+
+<!--Jquery-->
+<script type="text/javascript" src="../vendors/jquery/dist/jquery.min.js"></script>
+<!--Bootstrap-->
+<script type="text/javascript" src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!--X-Editable-->
+<script type="text/javascript" src="../vendors/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
+<!--Datatables-->
+<script type="text/javascript" src="../vendors/datatables/media/js/jquery.dataTables.min.js"></script>
+<!--Velocity-->
+<script type="text/javascript" src="../vendors/velocity/velocity.min.js"></script>
+<!--Velocity UI-->
+<script type="text/javascript" src="../vendors/velocity/velocity.ui.min.js"></script>
+<!--Slim Scroll-->
+<script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+<!--Counter Up-->
+<script type="text/javascript" src="../vendors/waypoints/lib/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="../vendors/jquery.counterup/jquery.counterup.min.js"></script>
+<!--Custom JS-->
+<!-- build:js assets/scripts/App.js -->
+<script type="text/javascript" src="temp/scripts/App.js"></script>
+<!-- end build -->
+
+</body>
+</html>

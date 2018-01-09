@@ -1,0 +1,209 @@
+/****************************/
+/** Top Navigation **/
+/****************************/
+.navbar {
+    &.navbar-inverse {
+        background: $white;
+
+        &.navbar-fixed-top {
+            border-bottom: 1px solid $light-grey;
+            margin-bottom: 0;
+            min-height: 66px;
+            padding: 0 15px 0 0;
+
+            .navbar__header {
+                width: 225px;
+                padding-left: 15px;
+                height: 66px;
+                overflow: hidden;
+                transition: 0.4s ease;
+
+                .navbar__logo-content {
+                    width: 225px;
+                    padding-top: 19px;
+
+                    .navbar__logo-img {
+                        margin-right: 10px;
+                        position: relative;
+                        top: 2px;
+                    }
+
+                    .navbar__logo-text {
+                        display: inline-block;
+                        font-family: "Poppins", sans-serif;
+                        color: $black;
+                        font-size: 21px;
+                        text-transform: capitalize;
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
+            }
+            .nav{
+                >li {
+                    &.dropdown{
+                         position: relative;
+                    }
+                    > a {
+                        color: $grey;
+                        background: transparent !important;
+                        transition: 0.3s ease;
+                        padding: 0 9px;
+                        line-height: 66px;
+
+                        &:hover,&:focus,&:active {
+                            color:$black;
+                        }
+
+                        .user__profile-img {
+                            height:43px;
+                            width:43px;
+                            vertical-align:middle;
+                        }
+
+                        .user__status{
+                            background: $green;
+                            border-radius: 50%;
+                            bottom: 10px;
+                            height: 10px;
+                            border:2px solid $white;
+                            position: absolute;
+                            right: 0;
+                            width: 10px;
+                        }
+                    }
+                    .dropdown-menu{
+                        margin-top: 1px;
+                        &.notification-dropdown{
+                             width: 400px;
+
+                            .notification__box-wrap{
+                                .notification__box-title{
+                                    font-size: 16px;
+                                    color: $black;
+                                    display: block;
+                                    text-transform: capitalize;
+                                    padding: 7px 15px 10px;
+                                }
+                                .notification__box-clear{
+                                    padding: 12px 15px 10px;
+                                    text-transform: capitalize;
+                                    font-size: 12px;
+                                }
+                            }
+
+                            .notifications-wrap-bottom{
+                                .notifications-read-all{
+                                    padding: 5px 15px 0;
+                                    font-size: 12px;
+                                    text-transform: capitalize;
+                                }
+                            }
+
+                            .notifications-wrap{
+                                height:250px;
+                                position: relative;
+
+                                .notifications-item{
+                                    margin-left: 0;
+                                    border-left: none;
+                                    padding: 7px 15px 0;
+                                    transition: .2s ease;
+                                    &:hover{
+                                         background: $lighter-grey;
+                                    }
+                                    &:before{
+                                         display: none;
+                                    }
+                                    > a{
+                                         display: block;
+                                    }
+                                    .notifications-icon{
+                                        width: 44px;
+                                        height: 44px;
+                                        position: absolute;
+                                        display: table;
+                                        text-align: center;
+                                        i{
+                                            font-size: 24px;
+                                            vertical-align: middle;
+                                            display: table-cell;
+                                            color: $white;
+                                        }
+                                    }
+                                    .notifications-content{
+                                        margin-left: 60px;
+                                        > .notifications-title{
+                                              width: 230px;
+                                              font-size: 13px;
+                                              text-transform: capitalize;
+                                              font-weight: 400;
+                                        }
+                                        .notifications-time{
+                                            color: $grey;
+                                        }
+                                        > p{
+                                              font-size: 13px;
+                                              color: $grey;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .user__dropdown{
+                            min-width: 175px;
+                            text-transform: capitalize;
+                        }
+                    }
+                }
+                &.open{
+                    > a {
+                        background:$white;
+                        &:focus,&:hover,&:active {
+                            background:$white;
+                        }
+                    }
+                }
+                &.top-nav{
+                    > li{
+                         display: inline-block;
+                         float: left;
+                        > a{
+                            i.top-nav__icon{
+                                font-size: 24px;
+                                vertical-align: middle;
+                            }
+                            .top-nav__icon-notifications{
+                                background: $green;
+                                border-radius: 50%;
+                                color: $white;
+                                font-size: 10px;
+                                height: 16px;
+                                line-height: 16px;
+                                position: absolute;
+                                right: 21px;
+                                text-align: center;
+                                top: 18px;
+                                width: 16px;
+                            }
+                        }
+                    }
+                }
+                &.navbar-right{
+                     margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+a.toggle-left-sidebar,
+a#toggle_top_nav_for_mobile{
+    color: $grey;
+    position: relative;
+    line-height: 65px;
+    i{
+        font-size: 21px;
+        vertical-align: middle;
+    }
+}

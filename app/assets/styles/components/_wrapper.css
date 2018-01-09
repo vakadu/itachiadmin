@@ -1,0 +1,54 @@
+/****************************/
+/** Wrapper **/
+/****************************/
+.wrapper{
+    background: $white;
+
+    &.body-wrapper{
+        .sidebar-left{
+            border-right: 1px solid $blue;
+            z-index: 1030;
+            .sidebar-left__nav{
+                background: $blue;
+                > li > a {
+                    color: $white;
+                    &:hover, &:focus, &:active{
+                        color: $white;
+                    }
+                }
+                li {
+                    a{
+                        &:hover, &:focus, &:active{
+                            background: $lighter-grey;
+                        }
+                    }
+                    a[aria-expanded="true"]{
+                        background: $lighter-white;
+                    }
+                }
+            }
+            hr.light-grey-hr{
+                border-color: $lighter-white;
+            }
+        }
+        .navbar.navbar-inverse.navbar-fixed-top{
+            background: #f4f4f4;
+
+            .navbar__header{
+                background: $blue;
+
+                .navbar__logo-content .navbar__logo-text{
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.content-wrapper{
+    margin-left: 225px;
+    padding: 70px 20px;
+    position: relative;
+    transition: all .3s ease;
+    left: 0;
+}

@@ -1,0 +1,83 @@
+/****************************/
+/** Buttons **/
+/****************************/
+.accordian-body{
+    &.panel-group{
+        .panel{
+            border: medium none;
+            border-radius: 0;
+            margin-bottom: 0;
+            margin-top: 0;
+            box-shadow:none;
+            .panel-heading{
+                border-radius: 0;
+                padding: 0;
+                background: $lighter-grey;
+                border-bottom: 1px solid $light-grey;
+                &.active-open{
+                    background: $green;
+                    border-bottom: 1px solid $green;
+                    a {
+                        color: $white;
+                    }
+                }
+                a {
+                    color:$grey	;
+                    text-transform: capitalize;
+                    padding: 10px 20px;
+                    width: 100%;
+                    display: block;
+                }
+            }
+            &:last-child {
+                .panel-heading {
+                    border-bottom: none;
+                }
+            }
+            .panel-body {
+                border: none;
+            }
+        }
+    }
+    &.accordian-style{
+        &.panel-group{
+            .panel{
+                .panel-heading{
+                    background: transparent;
+                    border-bottom: 1px solid $light-grey;
+                    &.active-open{
+                         background: transparent;
+                        .accordian-icon{
+                            .minus-accordian{
+                                opacity: 1;
+                            }
+                            .plus-accordian{
+                                opacity: 0;
+                            }
+                        }
+                        a{
+                            color:$grey;
+                        }
+                    }
+                    a{
+                        color: $grey;
+                    }
+                }
+            }
+        }
+        .accordian-icon{
+            display: inline;
+            position: relative;
+            color: $green;
+            .minus-accordian{
+                position: absolute;
+                left: 0;
+                top: 0;
+                opacity: 0;
+            }
+            .plus-accordian{
+                opacity: 1;
+            }
+        }
+    }
+}

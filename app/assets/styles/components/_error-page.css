@@ -1,0 +1,49 @@
+/****************************/
+/** Error Page **/
+/****************************/
+.error-bg{
+    background: url("../../assets/images/error1.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.error-header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.error-header .form-group.pull-right{
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.error__logo-content{
+    padding-top: 19px;
+    padding-left: 15px;
+}
+
+.error__logo-img{
+    position: relative;
+    top: 2px;
+}
+
+.error__logo-text{
+    color: $black;
+    display: inline-block;
+    font-size: 21px;
+    text-transform: capitalize;
+}
+
+.wrap-error--page{
+    padding: 100px 0;
+}
+
+.error--page{
+    width: 400px;
+}
+
+.error-more-text{
+    font-size: 16px;
+    text-transform: capitalize;
+}

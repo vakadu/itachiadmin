@@ -1,0 +1,30 @@
+/****************************/
+/** Dropdown **/
+/****************************/
+/*ul.dropdown-menu{*/
+/*display: block;*/
+/*}*/
+
+.dropdown-menu{
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0,0,0,.175);
+    > li {
+        > a {
+            color: $black;
+            padding: 6px 20px;
+            &:hover{
+               background: $lighter-grey;
+            }
+            i{
+                color: $grey;
+                font-size: 18px;
+                width: 18px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .divider{
+        background-color: $lighter-grey;
+    }
+}

@@ -1,0 +1,188 @@
+/****************************/
+/** Wrapper **/
+/****************************/
+.table-responsive{
+    border: 1px solid $light-grey;
+    .table{
+        max-width: none;
+        -webkit-overflow-scrolling: touch !important;
+    }
+}
+
+.table{
+    border-color: $light-grey;
+}
+
+.table > tbody > tr > th, .table > tbody > tr > td, .table > thead > tr > th, .table > thead > tr > td{
+    padding: 14px;
+    vertical-align: middle;
+    border-top: 1px solid $light-grey;
+}
+
+.table > thead > tr > th{
+    border-bottom: 2px solid $light-grey!important;
+    color:$black;
+    font-size:12px;
+    font-weight: 500;
+    text-transform:uppercase;
+}
+
+.table-hover > tbody > tr:hover{
+    background-color: $lighter-grey;
+}
+
+table.dataTable tbody tr {
+    background-color: transparent;
+}
+table.dataTable.display tbody tr.even > .sorting_1, table.dataTable.order-column.stripe tbody tr.even > .sorting_1 {
+    background-color: inherit;
+}
+
+table.dataTable.display.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background:$lighter-grey;
+}
+
+table.dataTable.order-column tbody tr > .sorting_1, table.dataTable.order-column tbody tr > .sorting_2, table.dataTable.order-column tbody tr > .sorting_3, table.dataTable.display tbody tr > .sorting_1, table.dataTable.display tbody tr > .sorting_2, table.dataTable.display tbody tr > .sorting_3,table.dataTable.display tbody tr.odd > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd > .sorting_1 ,table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd ,table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+    background-color: inherit;
+}
+
+table.dataTable.display.table-striped tbody tr > .sorting_1,
+table.dataTable.display tbody tr:hover > .sorting_1, table.dataTable.order-column.hover tbody tr:hover > .sorting_1
+{
+    background:transparent;
+}
+
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+    border-color: $light-grey;
+    border-left:none;
+    border-bottom:none;
+}
+
+table.dataTable > tfoot > tr > th {
+    border-bottom: 0 solid $light-grey !important;
+    border-left: medium none !important;
+}
+
+table.dataTable{
+    border-right: medium none !important;
+}
+
+table.dataTable > caption + thead > tr:first-child > td, table.dataTable > caption + thead > tr:first-child > th, table.dataTable > colgroup + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > th, table.dataTable > thead:first-child > tr:first-child > td, table.dataTable > thead:first-child > tr:first-child > th {
+    border-left: medium none !important;
+}
+
+.dataTables_wrapper {
+    .dataTables_filter,.dataTables_length {
+        margin-bottom:30px;
+    }
+    .dataTables_length,.dataTables_filter {
+        padding-top:20px;
+        margin-bottom:14px;
+        color:$grey;
+    }
+    .dataTables_length,
+    .dataTables_info {
+        padding-left:15px;
+    }
+    .dataTables_info {
+        color:$grey;
+    }
+    .dataTables_filter {
+        padding-right:15px;
+    }
+    .dataTables_filter input,.dataTables_length select{
+        height:25px
+    }
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,.dataTables_wrapper .dataTables_paginate .paginate_button:hover,.dataTables_wrapper .dataTables_paginate .paginate_button:active,.dataTables_wrapper .dataTables_paginate .paginate_button:focus {
+    background: rgba(38, 166, 91, 1);
+    border-color: rgba(38, 166, 91, 1);
+    color: $white !important;
+    box-shadow:none;
+    margin-bottom: 10px;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color:$black;
+}
+
+.sorting,
+.sorting_asc,
+.sorting_desc {
+    position:relative;
+}
+
+table.dataTable thead .sorting::after {
+    content: "\f0dc";
+    opacity: 0.2;
+}
+
+table.dataTable thead .sorting_asc::after {
+    content: "\f0de";
+}
+
+table.dataTable thead .sorting_desc::after {
+    content: "\f0dd";
+}
+
+table.dataTable thead .sorting::after, table.dataTable thead .sorting_asc::after, table.dataTable thead .sorting_desc::after {
+    display: block;
+    font-family: FontAwesome, sans-serif;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size:14px;
+}
+
+.table.dataTable.no-footer{
+    border-bottom: none;
+}
+
+.dataTables_wrapper .dataTables_filter input, .dataTables_wrapper .dataTables_length select{
+    background: $white;
+    border: 1px solid rgba(33, 33, 33, 0.12);
+    &:focus {
+         border-color:rgba(33, 33, 33, 0.3);
+         box-shadow: none;
+         outline: 0 none;
+    }
+}
+
+.dataTables_wrapper .dataTables_filter input{
+    padding: 5px;
+}
+
+.editable-click, a.editable-click, a.editable-click:hover{
+    border-bottom: none;
+}
+
+/*Popover*/
+.popover {
+    border: medium none;
+    border-radius: 0;
+    padding: 0;
+
+    h3.popover-title {
+        background-color: $green;
+        border-bottom: 1px solid $light-grey;
+        border-radius: 0;
+        color:$white;
+        font-size:15px;
+        padding: 0 14px;
+    }
+
+}
+
+.popover.bottom > .arrow::after {
+    border-bottom-color: $green;
+}
+
+select.input-sm {
+    height: 36px;
+    line-height: 36px;
+}
+
+.editableform .form-control {
+    font-size: 14px;
+}

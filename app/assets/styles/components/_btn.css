@@ -1,0 +1,51 @@
+/****************************/
+/** Buttons **/
+/****************************/
+/*.btn {*/
+    /*background-color: none;*/
+    /*border-color: rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: none;*/
+    /*color: $white;*/
+    /*text-shadow: none;*/
+    /*font-weight: bold;*/
+
+    /*&:hover, &:focus {*/
+        /*color: $white;*/
+    /*}*/
+
+    /*&--medium {*/
+         /*font-size: 14px;*/
+         /*padding: 12px 20px;*/
+         /*line-height: 14px*/
+    /*}*/
+
+    /*&--large {*/
+         /*font-size: 16px;*/
+         /*padding: 15px 25px;*/
+         /*line-height: 16px*/
+    /*}*/
+
+    /*&--ghost {*/
+         /*border: 3px solid $white;*/
+         /*background: transparent;*/
+         /*letter-spacing: 2px;*/
+         /*display: inline-block;*/
+         /*text-transform: uppercase;*/
+         /*border-radius: 0;*/
+    /*}*/
+
+    /*&--rounded {*/
+         /*border-radius: 60px;*/
+    /*}*/
+
+    /*&--kwiqpick {*/
+         /*transition: all 0.2s ease;*/
+         /*background-color: $kwiqpick;*/
+         /*color: $white;*/
+
+        /*&:hover {*/
+             /*background-color: $kwiqpick-hover;*/
+        /*}*/
+
+    /*}*/
+/*}*/

@@ -12,7 +12,7 @@
     <!--Fav icons-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="assets/styles/styles-66b211b55c.css"/>
+    <link rel="stylesheet" href="assets/styles/styles-1a8362ab23.css"/>
 
 </head>
 
@@ -23,7 +23,7 @@
     <div class="youtube-loading-animation"></div>
 </div>
 
-<div class="wrapper body-wrapper">
+<div class="wrapper body-wrapper active-green">
     <!--start nav-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="nav-for-mobile pull-left">
@@ -161,7 +161,7 @@
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a class="active" href="index.html">
+                <a href="index.html">
                     <div class="pull-left"><i class="fa fa-tachometer mr-20"></i><span class="sidebar-left__text-left">dashboard</span></div><div class="clearfix"></div>
                 </a>
             </li>
@@ -190,7 +190,7 @@
                 </ul>
             </li>
             <li>
-                <a href="javascript:void(0)" data-toggle="collapse" data-target="#table-status">
+                <a class="active" href="javascript:void(0)" data-toggle="collapse" data-target="#table-status">
                     <div class="pull-left"><i class="fa fa-ticket mr-20"></i><span class="sidebar-left__text-left">table</span>
                     </div>
                     <div class="pull-right">
@@ -206,6 +206,102 @@
                         <a href="reservation.html">reservation status</a>
                     </li>
                 </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#menu">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">manage menu</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul id="menu" class="collapse">
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#food">food<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="food" class="collapse collapse-level-2">
+                            <li>
+                                <a href="food-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="food-cuisine.html">cuisine</a>
+                            </li>
+                            <li>
+                                <a href="food-items.html">items</a>
+                            </li>
+                            <li>
+                                <a href="today-specials.html">today's specials</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#bar">bar<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="bar" class="collapse">
+                            <li>
+                                <a href="bar-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="bar-items.html">items</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#orders">
+                    <div class="pull-left"><i class="fa fa-shopping-cart mr-20"></i><span class="sidebar-left__text-left">orders list</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="orders">
+                    <li>
+                        <a href="orderslist.html">orders list</a>
+                    </li>
+                    <li>
+                        <a href="">new bill</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="events.html">
+                    <div class="pull-left"><i class="fa fa-calendar mr-20"></i><span class="sidebar-left__text-left">events</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="dishhistory.html">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">dish history</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#settings">
+                    <div class="pull-left"><i class="fa fa-cog mr-20"></i><span class="sidebar-left__text-left">settings</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="settings">
+                    <li>
+                        <a href="profile.html">profile</a>
+                    </li>
+                    <li>
+                        <a href="branch.html">branch settings</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="synchronization.html">
+                    <div class="pull-left"><i class="fa fa-refresh mr-20"></i><span class="sidebar-left__text-left">Synchronization</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="help.html">
+                    <div class="pull-left"><i class="fa fa-question-circle-o mr-20"></i><span class="sidebar-left__text-left">help</span></div><div class="clearfix"></div>
+                </a>
             </li>
             <li><hr class="light-grey-hr mb-10" /> </li>
             <li class="sidebar-left__title">
@@ -230,18 +326,6 @@
                         <ul id="auth_pages" class="collapse collapse-level-2">
                             <li>
                                 <a href="login.html">Login</a>
-                            </li>
-                            <li>
-                                <a href="">Register</a>
-                            </li>
-                            <li>
-                                <a href="">Recover Password</a>
-                            </li>
-                            <li>
-                                <a href="">reset Password</a>
-                            </li>
-                            <li>
-                                <a href="">Lock Screen</a>
                             </li>
                         </ul>
                     </li>
@@ -288,7 +372,7 @@
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a class="active" href="documentation.html">
+                <a href="documentation.html">
                     <div class="pull-left"><i class="fa fa-file-pdf-o mr-20"></i><span class="sidebar-left__text-left">documentation</span></div><div class="clearfix"></div>
                 </a>
             </li>
@@ -337,7 +421,7 @@
                                 </div>
                                 <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 right">
                                     <div class="form-group">
-                                        <button class="btn btn-success btn-md">Book Seat</button>
+                                        <a class="btn btn-success btn-md" data-toggle="modal" data-target="#reservationModal">Book Seat</a>
                                     </div>
                                 </div>
                             </div><!--end row-->
@@ -372,26 +456,16 @@
                                                 <td>4</td>
                                                 <td>01/09/2018 11:51 AM</td>
                                                 <td>9972380619</td>
-                                                <td><a href="#" id="reservation" data-type="select" data-pk="1" data-value="" data-title="Change Reservation Status" class="badge badge-success"></a></td>
-                                                <td class="text-nowrap"><a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-edit text-green font-18"></i> </a> <a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash-o text-danger font-18"></i> </a> </td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Vinod</td>
-                                                <td>4</td>
-                                                <td>01/09/2018 11:51 AM</td>
-                                                <td>9972380619</td>
-                                                <td><a href="#" id="reservation" data-type="select" data-pk="1" data-value="" data-title="Select Status" class="badge badge-success"></a></td>
-                                                <td class="text-nowrap"><a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-edit text-green font-18"></i> </a> <a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash-o text-danger font-18"></i> </a> </td>
-                                            </tr>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Vinod</td>
-                                                <td>4</td>
-                                                <td>01/09/2018 11:51 AM</td>
-                                                <td>9972380619</td>
-                                                <td><a href="#" id="reservation" data-type="select" data-pk="1" data-value="" data-title="Select Status" class="badge badge-success"></a></td>
-                                                <td class="text-nowrap"><a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-edit text-green font-18"></i> </a> <a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash-o text-danger font-18"></i> </a> </td>
+                                                <td>
+                                                    <a href="#" id="reservation" data-type="select" data-pk="1" data-value="" data-title="Change Reservation Status" class="badge badge-success"></a></td>
+                                                <td class="text-nowrap">
+                                                    <div class="inline" data-toggle="modal" data-target="#reservationEditModal">
+                                                        <a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-edit text-green font-18"></i> </a>
+                                                    </div>
+                                                    <div class="inline">
+                                                        <a href="#" class="mr-25" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash-o text-danger font-18"></i> </a>
+                                                    </div>
+                                                </td>
                                             </tr>
                                             </tbody>
                                         </table><!--end table-->
@@ -419,6 +493,118 @@
 
 </div><!--end wrapper-->
 
+<div class="modal fade" id="reservationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h5 class="modal-title">Add Reservation</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="form-wrap">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Customer Name</label>
+                                            <input type="text" class="form-control" placeholder="Customer Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Number of People</label>
+                                            <input type="text" class="form-control" placeholder="Number of People">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10 text-left">date & time</label>
+                                            <div class='input-group date' id='datetimepicker'>
+                                                <input type='text' class="form-control" />
+                                                <span class="input-group-addon">
+													<span class="fa fa-calendar"></span>
+												</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Phone Number</label>
+                                            <input type="text" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="form-actions mt-10">
+                                    <button type="submit" class="btn btn-success  mr-10">Save</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!--end column-->
+                </div><!--end row-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="reservationEditModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h5 class="modal-title">Edit Reservation</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="form-wrap">
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Customer Name</label>
+                                            <input type="text" class="form-control" placeholder="Customer Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Number of People</label>
+                                            <input type="text" class="form-control" placeholder="Number of People">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10 text-left">date & time</label>
+                                            <div class='input-group date' id='datetimepicker'>
+                                                <input type='text' class="form-control" />
+                                                <span class="input-group-addon">
+													<span class="fa fa-calendar"></span>
+												</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label mb-10">Phone Number</label>
+                                            <input type="text" class="form-control" placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="form-actions mt-10">
+                                    <button type="submit" class="btn btn-success  mr-10">Save</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!--end column-->
+                </div><!--end row-->
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--Jquery-->
 <script type="text/javascript" src="../vendors/jquery/dist/jquery.min.js"></script>
 <!--Bootstrap-->
@@ -427,6 +613,10 @@
 <script type="text/javascript" src="../vendors/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <!--Datatables-->
 <script type="text/javascript" src="../vendors/datatables/media/js/jquery.dataTables.min.js"></script>
+<!--Moment JavaScript-->
+<script type="text/javascript" src="../vendors/moment/min/moment-with-locales.min.js"></script>
+<!--Bootstrap Date Time Picker-->
+<script type="text/javascript" src="../vendors/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
 <!--Velocity-->
 <script type="text/javascript" src="../vendors/velocity/velocity.min.js"></script>
 <!--Velocity UI-->
@@ -437,4 +627,4 @@
 <script type="text/javascript" src="../vendors/waypoints/lib/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="../vendors/jquery.counterup/jquery.counterup.min.js"></script>
 <!--Custom JS-->
-<script src="assets/scripts/App-f1c5401022.js"></script>
+<script src="assets/scripts/App-e34d7bc255.js"></script>

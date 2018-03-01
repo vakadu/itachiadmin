@@ -12,7 +12,7 @@
     <!--Fav icons-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="assets/styles/styles-66b211b55c.css"/>
+    <link rel="stylesheet" href="assets/styles/styles-1a8362ab23.css"/>
 
 </head>
 
@@ -23,7 +23,7 @@
     <div class="youtube-loading-animation"></div>
 </div>
 
-<div class="wrapper body-wrapper">
+<div class="wrapper body-wrapper active-green">
     <!--start nav-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="nav-for-mobile pull-left">
@@ -207,6 +207,102 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#menu">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">manage menu</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul id="menu" class="collapse">
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#food">food<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="food" class="collapse collapse-level-2">
+                            <li>
+                                <a href="food-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="food-cuisine.html">cuisine</a>
+                            </li>
+                            <li>
+                                <a href="food-items.html">items</a>
+                            </li>
+                            <li>
+                                <a href="today-specials.html">today's specials</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#bar">bar<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="bar" class="collapse">
+                            <li>
+                                <a href="bar-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="bar-items.html">items</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#orders">
+                    <div class="pull-left"><i class="fa fa-shopping-cart mr-20"></i><span class="sidebar-left__text-left">orders list</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="orders">
+                    <li>
+                        <a href="orderslist.html">orders list</a>
+                    </li>
+                    <li>
+                        <a href="">new bill</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="events.html">
+                    <div class="pull-left"><i class="fa fa-calendar mr-20"></i><span class="sidebar-left__text-left">events</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="dishhistory.html">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">dish history</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#settings">
+                    <div class="pull-left"><i class="fa fa-cog mr-20"></i><span class="sidebar-left__text-left">settings</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="settings">
+                    <li>
+                        <a href="profile.html">profile</a>
+                    </li>
+                    <li>
+                        <a href="branch.html">branch settings</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="synchronization.html">
+                    <div class="pull-left"><i class="fa fa-refresh mr-20"></i><span class="sidebar-left__text-left">Synchronization</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="help.html">
+                    <div class="pull-left"><i class="fa fa-question-circle-o mr-20"></i><span class="sidebar-left__text-left">help</span></div><div class="clearfix"></div>
+                </a>
+            </li>
             <li><hr class="light-grey-hr mb-10" /> </li>
             <li class="sidebar-left__title">
                 <span>featured</span>
@@ -230,18 +326,6 @@
                         <ul id="auth_pages" class="collapse collapse-level-2">
                             <li>
                                 <a href="login.html">Login</a>
-                            </li>
-                            <li>
-                                <a href="">Register</a>
-                            </li>
-                            <li>
-                                <a href="">Recover Password</a>
-                            </li>
-                            <li>
-                                <a href="">reset Password</a>
-                            </li>
-                            <li>
-                                <a href="">Lock Screen</a>
                             </li>
                         </ul>
                     </li>
@@ -288,7 +372,7 @@
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a class="active" href="documentation.html">
+                <a href="documentation.html">
                     <div class="pull-left"><i class="fa fa-file-pdf-o mr-20"></i><span class="sidebar-left__text-left">documentation</span></div><div class="clearfix"></div>
                 </a>
             </li>
@@ -307,7 +391,7 @@
                                     <div class="container-fluid">
                                         <div class="row">
                                             <div class="col-xs-6 text-center pl-0 pr-0 card-box__small-left">
-                                                <span class="txt-dark block counter"><span class="increase-counter">100</span></span>
+                                                <span class="txt-dark block counter"><span class="increase-counter">1000</span></span>
                                                 <span class="weight-500 uppercase-font block font-13">restaurants</span>
                                             </div><!--end column-->
                                             <div class="col-xs-6 text-center pl-0 pr-0 card-box__small-right">
@@ -385,6 +469,112 @@
                 </div><!--end column-->
             </div><!--end row-->
 
+            <!--<div class="row">-->
+                <!--<div class="col-sm-12">-->
+                    <!--<div class="panel panel-default card-box">-->
+                        <!--<div class="panel-heading">-->
+                            <!--<div class="pull-left">-->
+                                <!--<h6 class="panel-title txt-dark">Graph Status</h6>-->
+                            <!--</div>-->
+                            <!--<div class="pull-right">-->
+                                <!--<a href="#" class="pull-left inline-block full-screen mr-15">-->
+                                    <!--<i class="fa fa-expand"></i>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                            <!--<div class="clearfix"></div>-->
+                        <!--</div>&lt;!&ndash;end panel-heading&ndash;&gt;-->
+                        <!--<div class="panel-wrapper collapse in">-->
+                            <!--<div id="e_chart" style="height: 350px"></div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="panel panel-default card-box">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <h6 class="panel-title txt-dark">Order Status</h6>
+                            </div>
+                            <div class="pull-right">
+                                <a href="#" class="pull-left inline-block full-screen mr-15">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="panel-wrapper collapse in">
+                            <div id="e_chart_1" style="height: 263px"></div>
+                            <div class="charts-text-box mt-15">
+                                <div class="mb-5">
+                                    <span class="chart-box inline-block bg-seagreen mr-5"></span>
+                                    <span class="chart-box-text font-12 inline-block txt-dark capitalize-font">Orders Received</span>
+                                </div>
+                                <div class="mb-5">
+                                    <span class="chart-box inline-block bg-green mr-5"></span>
+                                    <span class="chart-box-text font-12 inline-block txt-dark capitalize-font">Orders Dispatched</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="panel panel-default card-box">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <h6 class="panel-title txt-dark">Total Transaction</h6>
+                            </div>
+                            <div class="pull-right">
+                                <a href="#" class="pull-left inline-block full-screen mr-15">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="panel-wrapper collapse in">
+                            <div id="e_chart_2" style="height: 330px"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="panel panel-default card-box">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <h6 class="panel-title txt-dark">Employee Status</h6>
+                            </div>
+                            <div class="pull-right">
+                                <a href="#" class="pull-left inline-block full-screen mr-15">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="panel-wrapper collapse in">
+                            <div id="e_chart_3" style="height: 330px"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="panel panel-default card-box">
+                        <div class="panel-heading">
+                            <div class="pull-left">
+                                <h6 class="panel-title txt-dark">Total Transaction</h6>
+                            </div>
+                            <div class="pull-right">
+                                <a href="#" class="pull-left inline-block full-screen mr-15">
+                                    <i class="fa fa-expand"></i>
+                                </a>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="panel-wrapper collapse in">
+                            <div id="e_chart_4" style="height: 330px"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-lg-9 col-md-8 col-sm-7 col-xs-12">
                     <div class="panel panel-default card-box">
@@ -402,73 +592,7 @@
                         <div class="panel-wrapper collapse in">
                             <div class="panel-body row kot-scroller">
                                 <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="table-wrap mb-20">
-                                        <div class="table-responsive">
-                                            <table class="table table-hover mb-0">
-                                                <tbody>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div><!--end table responsive-->
-                                    </div><!--end table wrap-->
-                                </div><!--end column-->
-                                <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="table-wrap mb-20">
-                                        <div class="table-responsive">
-                                            <table class="table table-hover mb-0">
-                                                <tbody>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div><!--end table responsive-->
-                                    </div><!--end table wrap-->
-                                </div><!--end column-->
-                                <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="table-wrap mb-20">
-                                        <div class="table-responsive">
-                                            <table class="table table-hover mb-0">
-                                                <tbody>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pizza</td>
-                                                    <td><span>2</span></td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div><!--end table responsive-->
-                                    </div><!--end table wrap-->
-                                </div><!--end column-->
-                                <div class="col-lg-4 col-md-6 col-sm-6">
-                                    <div class="table-wrap mb-20">
+                                    <div class="table-wrap kot-table mb-20" data-toggle="modal" data-target="#kot-modal">
                                         <div class="table-responsive">
                                             <table class="table table-hover mb-0">
                                                 <tbody>
@@ -600,6 +724,218 @@
 
 </div><!--end wrapper-->
 
+<div id="kot-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h5 class="modal-title">Kot Acceptance</h5>
+                <span>KOT: 1</span>
+                <span>Table# : 45</span>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <tbody>
+                            <tr>
+                                <td>Pizza</td>
+                                <td><span>2</span></td>
+                                <td>
+                                    <select class="form-control select-40" id="">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <div class="checkbox checkbox-success">
+                                        <input id="checkbox_1" type="checkbox">
+                                        <label for="checkbox_1"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Pizza</td>
+                                <td><span>2</span></td>
+                                <td>
+                                    <select class="form-control select-40">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <div class="checkbox checkbox-success">
+                                        <input id="checkbox_2" type="checkbox">
+                                        <label for="checkbox_2"> </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--end table responsive-->
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Check All</button>
+                <button type="button" class="btn btn-success">Accept</button>
+                <button type="button" class="btn btn-warning">Dispatch</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="newbillModal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h5 class="modal-title">Add New Bill</h5>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12 col-xs-12">
+                        <div class="form-wrap">
+                            <form action="#">
+                                <div class="row mb-20">
+                                    <div class="form-group">
+                                        <div class="col-sm-2 col-md-2 col-lg-2">
+                                            <b>Kot # </b>
+                                        </div>
+                                        <div class="col-sm-1 col-md-2 col-lg-2">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-sm-2 col-md-2 col-lg-2">
+                                            <b>Bill # </b>
+                                        </div>
+                                        <div class="col-sm-1 col-md-2 col-lg-2">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="col-sm-2 col-md-2 col-lg-1">
+                                            <b>Date # </b>
+                                        </div>
+                                        <div class="col-sm-4 col-md-4 col-lg-3">
+                                            <input type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="row mb-20">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-4 col-md-3">
+                                            <label>
+                                                <b>Item</b>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-4 col-md-3">
+                                            <label>
+                                                Quantity
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-1 col-md-2">
+                                            <label>
+                                                <label>
+                                                    Rate
+                                                </label>
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-1 col-md-2">
+                                            <label>
+                                                Amount(&#8377;)
+                                            </label>
+                                        </div>
+                                        <div class="col-sm-1 col-md-1"></div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="row mb-20">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="form-group">
+                                            <div class="col-sm-4 col-md-3 form-group">
+                                                <select class="form-control" id="selStatus">
+                                                    <option>- Item Name -</option>
+                                                    <option value="">Item 1</option>
+                                                    <option value="">Item 2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3 form-group">
+                                                <input id="tch3_22" type="text" value="0" name="tch3_22" data-bts-button-down-class="btn btn-success" data-bts-button-up-class="btn btn-success">
+                                            </div>
+                                            <div class="col-sm-1 col-md-2 form-group">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-sm-1 col-md-2 form-group">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                            <div class="col-sm-1 col-md-1">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end row-->
+                                <div class="row">
+                                    <div class="col-sm-4 col-md-4">
+                                        <b class="mb-10">Select mode of Payment</b>
+                                        <div class="form-group">
+                                            <div>
+                                                <div class="radio">
+                                                    <input type="radio" name="radio1" id="radio_1" value="option1" checked="">
+                                                    <label for="radio_1">
+                                                        Cash
+                                                    </label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input type="radio" name="radio1" id="radio_2" value="option2" checked="">
+                                                    <label for="radio_2">
+                                                        Card
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-8 col-md-8">
+                                        <div class="form-group">
+                                            <div class="row mb-0">
+                                                <div class="row">
+                                                    <div class="form-group col-sm-12">
+                                                        <label class="col-sm-7 col-md-7 col-xs-12 right"></label>
+                                                        <span class="col-md-5 col-sm-5 col-xs-12">Amount(&#8377;)</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--end row-->
+                                        <div class="row">
+                                            <div class="form-group col-sm-12">
+                                                <label class="col-sm-7 col-md-7 col-xs-12 right pt-10"><b>Total</b></label>
+                                                <span class="col-md-5 col-sm-5 col-xs-12">
+                                                    <input type="text" class="form-control">
+                                                </span>
+                                            </div>
+                                        </div><!--end row-->
+                                        <div class="row">
+                                            <div class="form-group col-sm-12">
+                                                <label class="col-sm-7 col-md-7 col-xs-12 right pt-10"><b>Grand Total</b></label>
+                                                <span class="col-md-5 col-sm-5 col-xs-12">
+                                                    <input type="text" class="form-control">
+                                                </span>
+                                            </div>
+                                        </div><!--end row-->
+                                    </div>
+                                </div>
+                                <div class="form-actions mt-10 right">
+                                    <button type="submit" class="btn btn-success  mr-10">Save</button>
+                                    <button type="submit" class="btn btn-success  mr-10">Save & Print</button>
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!--end column-->
+                </div><!--end row-->
+            </div>
+        </div>
+    </div>
+</div>
+
 <!--Jquery-->
 <script type="text/javascript" src="../vendors/jquery/dist/jquery.min.js"></script>
 <!--Bootstrap-->
@@ -608,6 +944,17 @@
 <script type="text/javascript" src="../vendors/x-editable/dist/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <!--Datatables-->
 <script type="text/javascript" src="../vendors/datatables/media/js/jquery.dataTables.min.js"></script>
+<!--Moment JavaScript-->
+<script type="text/javascript" src="../vendors/moment/min/moment-with-locales.min.js"></script>
+<!--Bootstrap Date Time Picker-->
+<script type="text/javascript" src="../vendors/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+<!--Bootstrap Date Range Picker-->
+<script type="text/javascript" src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+<!-- EChartJS JavaScript -->
+<script src="../vendors/echarts/dist/echarts-en.min.js"></script>
+<script src="../vendors/echarts-liquidfill.min.js"></script>
+<!-- Bootstrap Touchspin JavaScript -->
+<script src="../vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.js"></script>
 <!--Velocity-->
 <script type="text/javascript" src="../vendors/velocity/velocity.min.js"></script>
 <!--Velocity UI-->
@@ -618,4 +965,4 @@
 <script type="text/javascript" src="../vendors/waypoints/lib/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="../vendors/jquery.counterup/jquery.counterup.min.js"></script>
 <!--Custom JS-->
-<script src="assets/scripts/App-f1c5401022.js"></script>
+<script src="assets/scripts/App-e34d7bc255.js"></script>

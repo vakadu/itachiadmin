@@ -12,7 +12,7 @@
     <!--Fav icons-->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <!--Custom CSS-->
-    <link rel="stylesheet" href="assets/styles/styles-66b211b55c.css"/>
+    <link rel="stylesheet" href="assets/styles/styles-1a8362ab23.css"/>
 
 </head>
 
@@ -23,7 +23,7 @@
     <div class="youtube-loading-animation"></div>
 </div>
 
-<div class="wrapper body-wrapper">
+<div class="wrapper body-wrapper active-green">
     <!--start nav-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="nav-for-mobile pull-left">
@@ -161,7 +161,7 @@
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a class="active" href="index.html">
+                <a href="index.html">
                     <div class="pull-left"><i class="fa fa-tachometer mr-20"></i><span class="sidebar-left__text-left">dashboard</span></div><div class="clearfix"></div>
                 </a>
             </li>
@@ -207,13 +207,109 @@
                     </li>
                 </ul>
             </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#menu">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">manage menu</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul id="menu" class="collapse">
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#food">food<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="food" class="collapse collapse-level-2">
+                            <li>
+                                <a href="food-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="food-cuisine.html">cuisine</a>
+                            </li>
+                            <li>
+                                <a href="food-items.html">items</a>
+                            </li>
+                            <li>
+                                <a href="today-specials.html">today's specials</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" data-toggle="collapse" data-target="#bar">bar<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
+                        <ul id="bar" class="collapse">
+                            <li>
+                                <a href="bar-category.html">category</a>
+                            </li>
+                            <li>
+                                <a href="bar-items.html">items</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#orders">
+                    <div class="pull-left"><i class="fa fa-shopping-cart mr-20"></i><span class="sidebar-left__text-left">orders list</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="orders">
+                    <li>
+                        <a href="orderslist.html">orders list</a>
+                    </li>
+                    <li>
+                        <a href="">new bill</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="events.html">
+                    <div class="pull-left"><i class="fa fa-calendar mr-20"></i><span class="sidebar-left__text-left">events</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="dishhistory.html">
+                    <div class="pull-left"><i class="fa fa-cutlery mr-20"></i><span class="sidebar-left__text-left">dish history</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)" data-toggle="collapse" data-target="#settings">
+                    <div class="pull-left"><i class="fa fa-cog mr-20"></i><span class="sidebar-left__text-left">settings</span>
+                    </div>
+                    <div class="pull-right">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                    <div class="clearfix"></div>
+                </a>
+                <ul class="collapse" id="settings">
+                    <li>
+                        <a href="profile.html">profile</a>
+                    </li>
+                    <li>
+                        <a href="branch.html">branch settings</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="synchronization.html">
+                    <div class="pull-left"><i class="fa fa-refresh mr-20"></i><span class="sidebar-left__text-left">Synchronization</span></div><div class="clearfix"></div>
+                </a>
+            </li>
+            <li>
+                <a href="help.html">
+                    <div class="pull-left"><i class="fa fa-question-circle-o mr-20"></i><span class="sidebar-left__text-left">help</span></div><div class="clearfix"></div>
+                </a>
+            </li>
             <li><hr class="light-grey-hr mb-10" /> </li>
             <li class="sidebar-left__title">
                 <span>featured</span>
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a href="javascript:void(0)" data-toggle="collapse" data-target="#pages">
+                <a class="active" href="javascript:void(0)" data-toggle="collapse" data-target="#pages">
                     <div class="pull-left"><i class="fa fa-file-text-o mr-20"></i><span class="sidebar-left__text-left">pages</span>
                     </div>
                     <div class="pull-right">
@@ -223,25 +319,13 @@
                 </a>
                 <ul id="pages" class="collapse">
                     <li>
-                        <a class="active" href="blank.html">Blank Page</a>
+                        <a href="blank.html">Blank Page</a>
                     </li>
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#auth_pages">authentication pages<div class="pull-right"><i class="fa fa-caret-down"></i></div><div class="clearfix"></div></a>
                         <ul id="auth_pages" class="collapse collapse-level-2">
                             <li>
                                 <a href="login.html">Login</a>
-                            </li>
-                            <li>
-                                <a href="">Register</a>
-                            </li>
-                            <li>
-                                <a href="">Recover Password</a>
-                            </li>
-                            <li>
-                                <a href="">reset Password</a>
-                            </li>
-                            <li>
-                                <a href="">Lock Screen</a>
                             </li>
                         </ul>
                     </li>
@@ -288,7 +372,7 @@
                 <i class="fa fa-ellipsis-h"></i>
             </li>
             <li>
-                <a class="active" href="documentation.html">
+                <a href="documentation.html">
                     <div class="pull-left"><i class="fa fa-file-pdf-o mr-20"></i><span class="sidebar-left__text-left">documentation</span></div><div class="clearfix"></div>
                 </a>
             </li>
@@ -338,4 +422,4 @@
 <script type="text/javascript" src="../vendors/waypoints/lib/jquery.waypoints.min.js"></script>
 <script type="text/javascript" src="../vendors/jquery.counterup/jquery.counterup.min.js"></script>
 <!--Custom JS-->
-<script src="assets/scripts/App-f1c5401022.js"></script>
+<script src="assets/scripts/App-e34d7bc255.js"></script>

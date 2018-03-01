@@ -1,0 +1,21 @@
+.scroll-top{
+    background: none repeat scroll 0 0 $light-grey;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    position: fixed;
+    right: 10px;
+    bottom: 15px;
+    border-radius: 6px;
+    color: $grey;
+    text-align: center;
+    display: none;
+    outline: none;
+    z-index: 9999;
+
+    &:hover, &:focus{
+        background: none repeat scroll 0 0 $green;
+        color: $white;
+    }
+}

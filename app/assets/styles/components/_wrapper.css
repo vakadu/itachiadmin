@@ -43,6 +43,13 @@
             }
         }
     }
+    &.active-green{
+        .sidebar-left .sidebar-left__nav{
+            > li >a.active{
+                color: $green;
+            }
+        }
+    }
 }
 
 .content-wrapper{

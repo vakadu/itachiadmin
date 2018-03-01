@@ -186,3 +186,34 @@ select.input-sm {
 .editableform .form-control {
     font-size: 14px;
 }
+
+.kot-table{
+    cursor: pointer;
+}
+
+.table-container{
+    display: inline-block;
+    width: 100%;
+    background-color: $light-grey;
+}
+
+.resize-table-container{
+    background-color: $green;
+    color: $white;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 55px;
+    margin: 30px 20px;
+    width: 120px;
+}
+
+#left-table{
+    position: absolute;
+    top: 105px;
+    left: 135px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #6666cc;
+    background-color: #ccccff;
+    border-radius: 4px;
+}

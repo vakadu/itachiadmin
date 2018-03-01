@@ -89,6 +89,34 @@
          }
     }
 
+    &.btn-hovertop{
+        position: relative;
+        overflow: hidden;
+        i{
+            font-size: 16px;
+            height: 100%;
+            left: 0;
+            padding-top: 10px;
+            position: absolute;
+            top: -100%;
+            transition: 0.3s ease 0s;
+            width: 100%;
+        }
+        .btn-text{
+            position: relative;
+            top: 0;
+            transition: 0.3s ease 0s;
+        }
+        &:hover{
+            i{
+                top: 0;
+            }
+            .btn-text{
+                top: 50px;
+            }
+        }
+    }
+
     &.btn-outline{
          background: transparent !important;
 
@@ -171,4 +199,13 @@
         margin-top: 15px;
         margin-right: 10px;
     }
+}
+
+.buttons-grp{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-actions a button{
+    margin-right: 10px;
 }

@@ -23,6 +23,36 @@ Version:      1.0
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
 
 /****************************/
+/** Jasny Bootstrap **/
+/****************************/
+@import url(../../../vendors/jasny-bootstrap/dist/css/jasny-bootstrap.min.css);
+
+/****************************/
+/** Touchspin **/
+/****************************/
+@import url(../../../vendors/bootstrap-touchspin/dist/jquery.bootstrap-touchspin.min.css);
+
+/**********************************/
+/** Bootstrap Datetimepicker CSS **/
+/**********************************/
+@import url(../../../vendors/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css);
+
+/**********************************/
+/** Bootstrap Daterangepicker CSS **/
+/**********************************/
+@import url(../../../vendors/bootstrap-daterangepicker/daterangepicker.css);
+
+/**********************************/
+/** Switchery **/
+/**********************************/
+@import url(../../../vendors/switchery/dist/switchery.min.css);
+
+/****************************/
+/** Awesome Bootstrap **/
+/****************************/
+@import url(../../../vendors/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css);
+
+/****************************/
 /** Animate **/
 /****************************/
 @import url(../../../vendors/animate.css/animate.min.css);
@@ -63,6 +93,7 @@ Version:      1.0
 @import "components/_accordians.css";
 @import "components/_forms.css";
 @import "components/_profile-pic.css";
+@import "components/_scroll-top.css";
 
 @import "pages/_login.css";
 

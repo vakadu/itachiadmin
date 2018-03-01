@@ -26,3 +26,28 @@
          outline: 0 none;
     }
 }
+
+.daterangepicker {
+    .input-mini {
+        border-color: $light-grey;
+        border-radius: 0;
+        color: $black;
+        &.active {
+             border-color: $light-grey;
+             border-radius: 0;
+             color: $black;
+        }
+        &:focus {
+             border-color: $grey;
+             box-shadow: none!important;
+             outline: 0 none;
+        }
+    }
+    td {
+        border-radius: 0!important;
+    }
+}
+.daterangepicker td.active, .daterangepicker td.active:hover,
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+    background: $green;
+}

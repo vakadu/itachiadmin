@@ -56,7 +56,8 @@ h4 {
 }
 
 h5 {
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
     line-height: 26px;
     text-transform: capitalize;
 }
@@ -70,6 +71,10 @@ h6, .panel-title {
 .error-heading{
     font-size:112px;
     line-height:112px;
+}
+
+b{
+    font-weight: 700;
 }
 
 strong {
@@ -159,6 +164,10 @@ p.text-muted {
 
 .bg-twitter {
     background: #00aced !important;
+}
+
+.width-128{
+    width: 128px;
 }
 
 .txt-dark {
@@ -288,6 +297,10 @@ p.text-muted {
     font-weight: 600 !important;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 .head-font {
     font-family: "Roboto", sans-serif !important;
 }
@@ -306,6 +319,10 @@ p.text-muted {
 
 .nonecase-font {
     text-transform: none !important;
+}
+
+.inline {
+    display: inline !important;
 }
 
 .inline-block {
@@ -402,4 +419,74 @@ hr.light-grey-hr {
     h5 {
         padding-top:6px;
     }
+}
+
+.select-20{
+    width: 20%;
+}
+
+.select-25{
+    width: 25%;
+}
+
+.select-40{
+    width: 40%;
+}
+
+.select-30p{
+    width: 30px;
+}
+
+.select-144{
+    @media (max-width: 1400px) {
+        width: 144px;
+    }
+    @media (max-width: 764px) {
+        width: 100%;
+    }
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+    @media (max-width: 565px) {
+        width: 100%;
+    }
+}
+
+.width-128{
+    @media (max-width: 1400px) {
+        width: 128px;
+    }
+    @media (max-width: 992px) {
+        width: 100%;
+    }
+}
+
+.checkbox,.radio {
+    padding-top:5px;
+    padding-bottom:5px;
+    min-height:27px;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.checkbox input[type="checkbox"]:focus + label::before, .checkbox input[type="radio"]:focus + label::before,
+.radio input[type="radio"]:focus + label::before {
+    outline:none;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before,
+.checkbox-success input[type="radio"]:checked + label::before {
+    background-color: rgba(38, 166, 91, 1);
+    border-color: rgba(38, 166, 91, 1);
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active {
+    background-color: green;
+}
+
+.bootstrap-datetimepicker-widget table td.day {
+    border-radius: 0;
 }
